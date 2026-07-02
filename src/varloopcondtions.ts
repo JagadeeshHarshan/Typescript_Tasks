@@ -1,4 +1,5 @@
-//1. Question
+ //1. Question
+
 let score: number = 75;
 if  (score >50) {
     console.log("pass");
@@ -40,15 +41,18 @@ console.log("num:" , num1)
 //5. question
 
 let sum1: number = (1+2+3+4+5+6+7+8+9+10);
+console.log(sum1);
 console.log("sum:" , sum1);
 
 
 //6. question
+
 let sum2: number = 0
 for (let i = 1; i <=10; i++) {
     sum2 = sum2 +i
 }
-console.log("sum:" , sum2);
+console.log(sum2);
+console.log("sum:", sum2)
 
 //7.Question
 
@@ -67,7 +71,7 @@ while(num3 <=20
     num3 += 2
     
  }
-console.log("num:", num3);
+console.log("num:", num3 - 2);
 
 //9. Question
  
@@ -85,7 +89,7 @@ while (numb >= -20
 
 ){
     console.log(numb);
-    numb--;
+    numb-- ;
 }
-console.log("numb:", numb);
+console.log("numb:", numb + 1);
 
